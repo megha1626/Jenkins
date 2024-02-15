@@ -1,0 +1,9 @@
+tests/Test.class
+utils/MainClass.class
+modules/ActionModule.class
+tests/Replace.class
+pages/BasePage.class
+pages/FrameAlertPage.class
+tests/Test2.class
+tests/SeleniumTest.class
+pages/ActionPage.class

@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.793 sec <<< FAILURE! - in TestSuite
+tt2(tests.Test2)  Time elapsed: 1.615 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[name()='path' and contains(@d,'M13 13v8h8')]"}
+  (Session info: chrome=121.0.6167.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.2', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89adbaedde9737ad40171aab12e1a087, findElement {using=xpath, value=//*[name()='path' and contains(@d,'M13 13v8h8')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.160, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /var/folders/yy/8gq7jrg13jb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57961/devtoo..., se:cdpVersion: 121.0.6167.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 89adbaedde9737ad40171aab12e1a087
+	at tests.Test2.tt2(Test2.java:14)
+
+tt2(tests.Test2)  Time elapsed: 2.681 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[name()='path' and contains(@d,'M13 13v8h8')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.2', java.version: '17.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8d8ad034-6d71-4685-af67-990767b0fcab, findElement {using=xpath, value=//*[name()='path' and contains(@d,'M13 13v8h8')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:8319, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 23.2.0, moz:processID: 21092, moz:profile: /var/folders/yy/8gq7jrg13jb..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:8319/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d8ad034-6d71-4685-af67-990767b0fcab
+	at tests.Test2.tt2(Test2.java:14)
+
